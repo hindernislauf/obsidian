@@ -4,25 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "779dca6a765a1ee9",
+        "id": "de868327807a2599",
         "type": "tabs",
         "children": [
           {
-            "id": "60a20ae49c8b7550",
+            "id": "f0c5269a05db9b6d",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Data Engineer Roadmap.canvas",
+                "file": "00. Data Engineer Roadmap.canvas",
                 "viewState": {
-                  "x": 345.2951357485936,
-                  "y": 4282.119819677629,
-                  "zoom": -3.356101481119792
+                  "x": -45,
+                  "y": 12062.975195312501,
+                  "zoom": -4
                 }
               }
             }
+          },
+          {
+            "id": "ed6874b296545106",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "right": {
     "id": "e0a2b8ecf1d7e284",
@@ -88,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Engineer Roadmap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Engineer Roadmap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Engineer Roadmap.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,45 +154,46 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "60a20ae49c8b7550",
+  "active": "ed6874b296545106",
   "lastOpenFiles": [
+    "01. 프로그램 언어/01-00-00. 프로그램 언어.md",
+    "00. Data Engineer Roadmap.canvas",
+    "01. AI Roadmap.canvas",
+    "main. Data Engineer (데이터 엔지니어).md",
+    "2024-05-09.md",
+    "AI Roadmap.md",
+    "Data Engineer Roadmap.canvas",
+    "06. SW 테스팅/06-01. 기능 테스트/06-01-00. Functional Test(기능 테스트).md",
+    "03. SQL/03-01. SQL 기초/03-01-00. SQL 기초.md",
+    "02. 데이터베이스/02-02-00. RDBMS(관계형 DB 시스템)/02-02-02. Postgre SQL.md",
+    "02. 데이터베이스/02-01-00. 클라우드 DB/02-01-02. Amazon Dynamo DB.md",
+    "00. CS 기초 지식/00-00-00. CS 기초 지식.md",
+    "01. 프로그램 언어/01-04. R/01-04-00. R.md",
+    "19. 미디어 파일 저장소/Data Engineer Roadmap 2024.png",
+    "01. 프로그램 언어/01-04. R",
+    "무제 폴더",
+    "19. 미디어 파일 저장소",
+    "00. 미디어 파일 저장소/무제 파일.md",
+    "Obsidian_vault/1. 프로그램 언어/1-0. 프로그램 언어.md",
+    "Obsidian_vault/1. 프로그램 언어",
+    "Obsidian_vault",
     "18. 용어 편람/18-00-00. 엔지니어 용어 편람.md",
-    "17. 클라우드/17-03. Azure(애져)/17-03-00. Azure(애져).md",
-    "17. 클라우드/17-02. Google 클라우드/17-02-00. Google Cloud.md",
-    "17. 클라우드/17-01. AWS/17-01-00. AWS.md",
-    "17. 클라우드/17-03. Azure(애져)/17-3-0. Azure(애져).md",
-    "17. 클라우드/17-03. Azure(애져)",
-    "17. 클라우드/17-02. Google 클라우드/17-2-0. Google Cloud.md",
-    "17. 클라우드/17-02. Google 클라우드",
-    "17. 클라우드/17-01. AWS/17-1-0. AWS.md",
-    "17. 클라우드/17-01. AWS",
-    "17. 클라우드/17-00-00. 클라우드.md",
-    "16. MLOps/16-04. MLFlow(ML플로우)/16-04-00. MLFlow(ML플로우).md",
-    "16. MLOps/16-03. Amazon Sagemaker(아마존 세이지메이커)/16-03-00. Amazon Sagemaker(아마존 세이지메이커).md",
-    "16. MLOps/16-02. Kubeflow(쿠브플로우)/16-02-00. Kubeflow(쿠브플로우).md",
-    "16. MLOps/16-01. TensorFlow Extended(텐서플로우 익스텐디드)/16-01-00. TensorFlow Extended(텐서플로우 익스텐디드).md",
-    "16. MLOps/16-04. MLFlow(ML플로우)/16-4-0. MLFlow(ML플로우).md",
-    "16. MLOps/16-04. MLFlow(ML플로우)",
-    "16. MLOps/16-03. Amazon Sagemaker(아마존 세이지메이커)/16-3-0. Amazon Sagemaker(아마존 세이지메이커).md",
-    "16. MLOps/16-03. Amazon Sagemaker(아마존 세이지메이커)",
-    "16. MLOps/16-02. Kubeflow(쿠브플로우)/16-2-0. Kubeflow(쿠브플로우).md",
-    "16. MLOps/16-02. Kubeflow(쿠브플로우)",
-    "16. MLOps/16-01. TensorFlow Extended(텐서플로우 익스텐디드)/16-1-0. TensorFlow Extended(텐서플로우 익스텐디드).md",
-    "16. MLOps/16-01. TensorFlow Extended(텐서플로우 익스텐디드)",
-    "16. MLOps/16-00-00. MLOps.md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학/15-02-05. Probability(확률).md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학/15-02-04. Statistics(통계학).md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학/15-02-03. Discrete Math(이산수학).md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학/15-02-02. Calculus(미적분학).md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학/15-02-01. Linear Algebra(선형대수학).md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학/15-02-00. 인공지능 수학.md",
-    "15. 인공 지능(AI)/15-01. ML, DL(머신 러닝, 딥 러닝)/15-01-08. PyTorch(파이토치).md",
-    "15. 인공 지능(AI)/15-01. ML, DL(머신 러닝, 딥 러닝)/15-01-07. Numpy(넘파이).md",
-    "15. 인공 지능(AI)/15-01. ML, DL(머신 러닝, 딥 러닝)/15-01-06. Pandas(판다스).md",
-    "15. 인공 지능(AI)/15-02. 인공지능 수학",
-    "15. 인공 지능(AI)/15-01. ML, DL(머신 러닝, 딥 러닝)",
-    "14. 데이터 시각화/14-05. IBM Power BI(파워 BI)",
-    "00. 미디어 파일 저장소/다운로드.png",
-    "00. 미디어 파일 저장소/Data Engineer Roadmap 2024.png"
+    "17. MLOps/17-00-00. MLOps.md",
+    "16. 데이터 시각화/16-00-00. 데이터 시각화.md",
+    "15. 데이터 전처리/15-03. Hybrid(하이브리드)/15-03-00. Hybrid(하이브리드).md",
+    "15. 데이터 전처리/15-02. Stream(스트림)/15-02-00. Stream(스트림).md",
+    "15. 데이터 전처리/15-01. Batch(배치)/15-01-00. Batch(배치).md",
+    "15. 데이터 전처리/15-00-00. 데이터 전처리.md",
+    "14. 인공 지능(AI)/14-00-00. 인공 지능(AI).md",
+    "14. 인공 지능(AI)/14-02. 인공지능 수학/14-02-00. 인공지능 수학.md",
+    "14. 인공 지능(AI)/14-01. ML, DL(머신 러닝, 딥 러닝)/14-01-00. ML, DL(머신 러닝, 딥 러닝).md",
+    "13. 메시징/13-00-00. Messaging(메시징).md",
+    "12. 데이터 웨어하우스/12-00-00. 데이터 웨어하우스.md",
+    "11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-00. 람다 & 카프카 아키텍쳐.md",
+    "17. MLOps/17-04. MLFlow(ML플로우)",
+    "17. MLOps/17-03. Amazon Sagemaker(아마존 세이지메이커)",
+    "17. MLOps/17-02. Kubeflow(쿠브플로우)",
+    "17. MLOps/17-01. TensorFlow Extended(텐서플로우 익스텐디드)",
+    "16. 데이터 시각화/16-05. IBM Power BI(파워 BI)"
   ]
 }
