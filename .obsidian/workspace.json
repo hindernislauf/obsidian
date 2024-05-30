@@ -11,14 +11,11 @@
             "id": "05cafa292f87d8dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/Data Engineer Roadmap.canvas",
-                "viewState": {
-                  "x": 939.2415278921943,
-                  "y": 19373.7661008329,
-                  "zoom": -2.679030354817708
-                }
+                "file": "Obsidian_vault/00. CS 기초 지식/1-2 프로세스.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/Data Engineer Roadmap.canvas",
+                "file": "Obsidian_vault/00. CS 기초 지식/1-2 프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/Data Engineer Roadmap.canvas",
+                "file": "Obsidian_vault/00. CS 기초 지식/1-2 프로세스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/Data Engineer Roadmap.canvas"
+                "file": "Obsidian_vault/00. CS 기초 지식/1-2 프로세스.md"
               }
             }
           },
@@ -158,8 +155,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d50a71f4122aa3c3",
+  "active": "05cafa292f87d8dc",
   "lastOpenFiles": [
+    "Obsidian_vault/00. CS 기초 지식/1-1 운영체제.md",
     "Obsidian_vault/Data Engineer (데이터 엔지니어).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-8. PyTorch(파이토치).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-7. Numpy(넘파이).md",
@@ -194,7 +192,6 @@
     "Obsidian_vault/6. 데이터베이스/6-4. 검색 엔진/6-4-1. Elastic Search(엘라스틱 서치).md",
     "Obsidian_vault/6. 데이터베이스/6-3. No SQL/6-3-6. Couch DB(카우치 DB).md",
     "Obsidian_vault/6. 데이터베이스/6-3. No SQL/6-3-5. Neo4j(네오포제이).md",
-    "Obsidian_vault/6. 데이터베이스/6-3. No SQL/6-3-4. Apache HBase & Bigtable(아파치 H베이스 & 빅테이블).md",
     "Obsidian_vault/18. 용어 편람",
     "Obsidian_vault/17. 클라우드/17-3. Azure(애져)",
     "Obsidian_vault/17. 클라우드/17-2. Google 클라우드",
