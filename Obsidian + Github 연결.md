@@ -8,8 +8,8 @@
 	- Clone a Repository from the Internet... 클릭
 		![400](https://i.imgur.com/ZCDn2u7.png)
 		
-	- URL탭 클릭 후 해당주소 복사 붙여넣고 Clone
-	  https://github.com/hindernislauf/obsidian
+	- URL탭 클릭 후 해당주소 복사 붙여넣고 Clone버튼 클릭
+		https://github.com/hindernislauf/obsidian
 		![400](https://i.imgur.com/d7okhqv.png)
 		
 	- main 부분 클릭 후 자신의 Branche로 변경
