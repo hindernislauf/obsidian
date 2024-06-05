@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5c76b5e6374d28ee",
+        "id": "4dcb877ae8786c33",
         "type": "tabs",
         "children": [
           {
-            "id": "1e78ee48e1c3496a",
+            "id": "cf127d60fc6e65cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,8 +155,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "1e78ee48e1c3496a",
+  "active": "cf127d60fc6e65cd",
   "lastOpenFiles": [
+    "().md",
+    "Obsidian_vault/07. CI, CD와 가상화/07-03. 쿠버네티스/07-03-00. Kubernetes(쿠버네티스).md",
+    "Obsidian_vault/07. CI, CD와 가상화/07-02. 도커/07-02-00. Docker(도커).md",
+    "Obsidian_vault/02. 데이터베이스/02-00-00. 데이터베이스.md",
     "Obsidian_vault/00. CS 기초 지식/OSI 7 Layer.md",
     "Obsidian_vault/00. CS 기초 지식/1 운영체제/1-6 캐시 메모리.md",
     "Obsidian_vault/00. CS 기초 지식/1 운영체제/1-5 가상 메모리.md",
@@ -169,9 +173,7 @@
     "Obsidian_vault/00. CS 기초 지식/1-2 프로세스.md",
     "Obsidian_vault/00. CS 기초 지식/1-1 운영체제.md",
     "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
-    "Obsidian_vault/07. CI, CD와 가상화/07-03. 쿠버네티스/07-03-00. Kubernetes(쿠버네티스).md",
     "Obsidian_vault/07. CI, CD와 가상화/07-00-00. CI, CD와 가상화.md",
-    "Obsidian_vault/07. CI, CD와 가상화/07-02. 도커/07-02-00. Docker(도커).md",
     "Obsidian_vault/00. CS 기초 지식/00-00-01. 리눅스.md",
     "Obsidian_vault/00. CS 기초 지식/플라스크 기초.md",
     "Obsidian_vault/00. CS 기초 지식/1-6 캐시 메모리.md",
@@ -193,7 +195,6 @@
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-8. PyTorch(파이토치).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-7. Numpy(넘파이).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-2. 인공지능 수학/15-2-1. Linear Algebra(선형대수학).md",
-    "Obsidian_vault/2. SQL/2-1. SQL 기초/2-1-0. SQL 기초.md",
     "Obsidian_vault/Data Engineer Roadmap.canvas",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
