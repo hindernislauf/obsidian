@@ -4,34 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "de868327807a2599",
+        "id": "274049d1acd65878",
         "type": "tabs",
         "children": [
           {
-            "id": "f0c5269a05db9b6d",
+            "id": "6d3b47aafe606512",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00. Data Engineer Roadmap.canvas",
-                "viewState": {
-                  "x": -45,
-                  "y": 12062.975195312501,
-                  "zoom": -4
-                }
+                "file": "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+                "mode": "source",
+                "source": false
               }
             }
-          },
-          {
-            "id": "ed6874b296545106",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 200
   },
   "right": {
     "id": "e0a2b8ecf1d7e284",
@@ -97,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md"
+              }
             }
           }
         ]
@@ -154,12 +146,32 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ed6874b296545106",
+  "active": "6d3b47aafe606512",
   "lastOpenFiles": [
-    "01. 프로그램 언어/01-00-00. 프로그램 언어.md",
-    "00. Data Engineer Roadmap.canvas",
-    "01. AI Roadmap.canvas",
+    "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-05. 해시 테이블.md",
+    "스크린샷 2024-06-06 오후 8.16.49.png",
+    "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-04. 힙.md",
+    "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+    "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
+    "스크린샷 2024-06-06 오후 7.33.31.png",
+    "스크린샷 2024-06-06 오후 7.29.47.png",
+    "스크린샷 2024-06-06 오후 7.29.29.png",
+    "Pasted image 20240606192931.png",
+    "스크린샷 2024-06-06 오후 7.20.35.png",
+    "Pasted image 20240606190748.png",
+    "스크린샷 2024-06-06 오후 6.51.50.png",
+    "Pasted image 20240606184800.png",
+    "스크린샷 2024-06-06 오후 6.47.15.png",
+    "04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
+    "04. 개발 기본 역량/04-00-00. 개발 기본 역량.md",
     "main. Data Engineer (데이터 엔지니어).md",
+    "01. AI Roadmap.canvas",
+    "00. Data Engineer Roadmap.canvas",
+    "00. CS 기초 지식/00-00-00. CS 기초 지식.md",
+    "18. 용어 편람/18-00-00. 엔지니어 용어 편람.md",
+    "04. 개발 기본 역량/04-01. 코딩의 기초 원칙/04-01-00. 코딩의 기초 원칙.md",
+    "01. 프로그램 언어/01-00-00. 프로그램 언어.md",
+    "01. 프로그램 언어/01-01. 파이썬 Python/01-01-00. 파이썬 Python.md",
     "2024-05-09.md",
     "AI Roadmap.md",
     "Data Engineer Roadmap.canvas",
@@ -167,9 +179,7 @@
     "03. SQL/03-01. SQL 기초/03-01-00. SQL 기초.md",
     "02. 데이터베이스/02-02-00. RDBMS(관계형 DB 시스템)/02-02-02. Postgre SQL.md",
     "02. 데이터베이스/02-01-00. 클라우드 DB/02-01-02. Amazon Dynamo DB.md",
-    "00. CS 기초 지식/00-00-00. CS 기초 지식.md",
     "01. 프로그램 언어/01-04. R/01-04-00. R.md",
-    "19. 미디어 파일 저장소/Data Engineer Roadmap 2024.png",
     "01. 프로그램 언어/01-04. R",
     "무제 폴더",
     "19. 미디어 파일 저장소",
@@ -177,19 +187,10 @@
     "Obsidian_vault/1. 프로그램 언어/1-0. 프로그램 언어.md",
     "Obsidian_vault/1. 프로그램 언어",
     "Obsidian_vault",
-    "18. 용어 편람/18-00-00. 엔지니어 용어 편람.md",
     "17. MLOps/17-00-00. MLOps.md",
     "16. 데이터 시각화/16-00-00. 데이터 시각화.md",
     "15. 데이터 전처리/15-03. Hybrid(하이브리드)/15-03-00. Hybrid(하이브리드).md",
     "15. 데이터 전처리/15-02. Stream(스트림)/15-02-00. Stream(스트림).md",
-    "15. 데이터 전처리/15-01. Batch(배치)/15-01-00. Batch(배치).md",
-    "15. 데이터 전처리/15-00-00. 데이터 전처리.md",
-    "14. 인공 지능(AI)/14-00-00. 인공 지능(AI).md",
-    "14. 인공 지능(AI)/14-02. 인공지능 수학/14-02-00. 인공지능 수학.md",
-    "14. 인공 지능(AI)/14-01. ML, DL(머신 러닝, 딥 러닝)/14-01-00. ML, DL(머신 러닝, 딥 러닝).md",
-    "13. 메시징/13-00-00. Messaging(메시징).md",
-    "12. 데이터 웨어하우스/12-00-00. 데이터 웨어하우스.md",
-    "11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-00. 람다 & 카프카 아키텍쳐.md",
     "17. MLOps/17-04. MLFlow(ML플로우)",
     "17. MLOps/17-03. Amazon Sagemaker(아마존 세이지메이커)",
     "17. MLOps/17-02. Kubeflow(쿠브플로우)",
