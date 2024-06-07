@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md"
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md"
               }
             }
           },
@@ -157,24 +157,25 @@
   },
   "active": "05cafa292f87d8dc",
   "lastOpenFiles": [
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-05. 해시 테이블.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-04. 힙.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
-    "04-03-03.md",
     "Obsidian_vault/README.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+    "README.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-05.hash_table.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-05.chaining.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_min_heap.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_insert.png",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_delete.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-03.priority_queue.png",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.tree.png",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_delete.png",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.균형_불균형.png",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.완전_불완전_이진트리.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.tree_insert.gif",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.red_black_tree.png",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.perfect_binary_tree.png",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.tree.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-05. 해시 테이블.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-04. 힙.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
+    "04-03-03.md",
     "Obsidian_vault/04. 개발 기본 역량/04-00-00. 개발 기본 역량.md",
     "Obsidian_vault/main. Data Engineer (데이터 엔지니어).md",
     "Obsidian_vault/01. AI Roadmap.canvas",
@@ -201,8 +202,6 @@
     "tree_insert-1(드래그함).tiff",
     "Obsidian_vault/Data Engineer (데이터 엔지니어).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-8. PyTorch(파이토치).md",
-    "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-7. Numpy(넘파이).md",
-    "Obsidian_vault/15. 인공 지능(AI)/15-2. 인공지능 수학/15-2-1. Linear Algebra(선형대수학).md",
     "Obsidian_vault/Data Engineer Roadmap.canvas",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
