@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/README.md",
-                "mode": "preview",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/README.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/README.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/README.md"
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md"
               }
             }
           },
@@ -157,11 +157,13 @@
   },
   "active": "05cafa292f87d8dc",
   "lastOpenFiles": [
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-05. 해시 테이블.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-04. 힙.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
+    "04-03-03.md",
+    "Obsidian_vault/README.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-05.hash_table.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-05.chaining.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_min_heap.png",
@@ -175,7 +177,6 @@
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img",
     "Obsidian_vault/04. 개발 기본 역량/04-00-00. 개발 기본 역량.md",
     "Obsidian_vault/main. Data Engineer (데이터 엔지니어).md",
-    "Obsidian_vault/README.md",
     "Obsidian_vault/01. AI Roadmap.canvas",
     "Obsidian_vault/00. Data Engineer Roadmap.canvas",
     "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
