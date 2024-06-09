@@ -16,10 +16,8 @@
 		{"id":"b6f5ce8dd2496648","type":"file","file":"14. 인공 지능(AI)/14-02. 인공지능 수학/14-02-03. Discrete Math(이산수학).md","x":2400,"y":-534,"width":1182,"height":400,"color":"3"},
 		{"id":"ce2a9083f336a1d8","type":"file","file":"14. 인공 지능(AI)/14-02. 인공지능 수학/14-02-04. Statistics(통계학).md","x":2400,"y":-13,"width":1182,"height":400,"color":"3"},
 		{"id":"89336e502c37ec66","type":"file","file":"14. 인공 지능(AI)/14-02. 인공지능 수학/14-02-05. Probability(확률).md","x":2400,"y":506,"width":1182,"height":400,"color":"3"},
-		{"id":"656d2126a3e6d441","type":"file","file":"15. 데이터 전처리/15-00-00. 데이터 전처리.md","x":1302,"y":2560,"width":1061,"height":882,"color":"4"},
 		{"id":"8acc64f6a3641d44","type":"file","file":"15. 데이터 전처리/15-01. Batch(배치)/15-01-00. Batch(배치).md","x":-480,"y":2360,"width":931,"height":400,"color":"3"},
 		{"id":"b950ae7eb3a22db5","type":"file","file":"15. 데이터 전처리/15-02. Stream(스트림)/15-02-00. Stream(스트림).md","x":-480,"y":3242,"width":931,"height":400,"color":"3"},
-		{"id":"75076fbabb5a421d","type":"file","file":"15. 데이터 전처리/15-01. Batch(배치)/15-01-01. Apache Pig(아파치 피그).md","x":-1888,"y":1960,"width":744,"height":400,"color":"3"},
 		{"id":"fcd648bbccf215b1","type":"file","file":"15. 데이터 전처리/15-01. Batch(배치)/15-01-02. Data Build Tool(DBT).md","x":-1888,"y":2560,"width":744,"height":400,"color":"3"},
 		{"id":"ebdf20549f8a9ee4","type":"file","file":"15. 데이터 전처리/15-02. Stream(스트림)/15-02-01. Apache Kafka(아파치 카프카).md","x":-2098,"y":3242,"width":954,"height":400,"color":"3"},
 		{"id":"7feef9676ac56c1c","type":"file","file":"15. 데이터 전처리/15-02. Stream(스트림)/15-02-02. Apache Storm(아파치 스톰).md","x":-2098,"y":3828,"width":954,"height":400,"color":"3"},
@@ -37,7 +35,9 @@
 		{"id":"d0498799e974b7f1","type":"file","file":"17. MLOps/17-01. TensorFlow Extended(텐서플로우 익스텐디드)/17-01-00. TensorFlow Extended(텐서플로우 익스텐디드).md","x":-2098,"y":7673,"width":1354,"height":549,"color":"3"},
 		{"id":"2de3f66e8a0ac1b8","type":"file","file":"17. MLOps/17-02. Kubeflow(쿠브플로우)/17-02-00. Kubeflow(쿠브플로우).md","x":-2098,"y":9204,"width":1354,"height":549,"color":"3"},
 		{"id":"59633473ebbbe9ae","type":"file","file":"17. MLOps/17-03. Amazon Sagemaker(아마존 세이지메이커)/17-03-00. Amazon Sagemaker(아마존 세이지메이커).md","x":5563,"y":7780,"width":1637,"height":613,"color":"3"},
-		{"id":"46214908009d4afd","type":"file","file":"17. MLOps/17-04. MLFlow(ML플로우)/17-04-00. MLFlow(ML플로우).md","x":5563,"y":9140,"width":1637,"height":613,"color":"1"}
+		{"id":"46214908009d4afd","type":"file","file":"17. MLOps/17-04. MLFlow(ML플로우)/17-04-00. MLFlow(ML플로우).md","x":5563,"y":9140,"width":1637,"height":613,"color":"1"},
+		{"id":"75076fbabb5a421d","type":"file","file":"15. 데이터 전처리/15-01. Batch(배치)/15-01-01. Apache Pig(아파치 피그).md","x":669,"y":1241,"width":744,"height":480,"color":"3"},
+		{"id":"656d2126a3e6d441","type":"file","file":"15. 데이터 전처리/15-00-00. 데이터 전처리.md","x":1560,"y":2540,"width":1061,"height":882,"color":"4"}
 	],
 	"edges":[
 		{"id":"4d967bdd80c3ff9b","fromNode":"bcd37ddb8c3c9415","fromSide":"left","toNode":"3d57157475b224b2","toSide":"right"},
