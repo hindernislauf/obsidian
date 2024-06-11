@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "f950ab56bfe3881a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdf4e4c6edbcc6b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c91d5a386f3048e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-02. 트랜잭션.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d927e396007681b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1649f0bc984a4537",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39af132e4b521d29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6b130134d1402b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "908e1c5f7321cfc0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ae4d212015b81e51",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b8861245129ebfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "203ead97b508be5c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-02. 트랜잭션.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08f589b567f0b18e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-02. 트랜잭션.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fb305f142aabd0f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3fcb80436c7bd27c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-02. 트랜잭션.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "9c91d5a386f3048e",
+  "lastOpenFiles": [
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-01. 관계형 데이터베이스.md",
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-02. 트랜잭션.md",
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스/00-04-00. 데이터베이스의 종류.md",
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-00-00. CS 기초 개념.md",
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-04. 데이터베이스",
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-03. 컴퓨터 네트워크/00-03-00. 네트워크 계층.md",
+    "Home.md",
+    "2. RESOURCE/Archive YD/00. CS 기초 개념/00-03. 컴퓨터 네트워크"
+  ]
+}
