@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c90339460d6da405",
+        "id": "e352c36e5709131b",
         "type": "tabs",
         "children": [
           {
-            "id": "7c2efd48b9023177",
+            "id": "933c6e402149a052",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04-01. 복잡도.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04-01. 복잡도.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04-01. 복잡도.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04-01. 복잡도.md"
+              }
             }
           },
           {
@@ -147,13 +155,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "7c2efd48b9023177",
+  "active": "933c6e402149a052",
   "lastOpenFiles": [
+    "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
     "Obsidian_vault/00. CS 기초 지식/00-04-01. 복잡도.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-00-00. 개발 기본 역량.md",
     "Pasted image 20240606194421.png",
     "Pasted image 20240606194416.png",
     "Pasted image 20240606192621.png",
-    "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
     "Obsidian_vault/03. SQL/03-02. SQL 심화/03-02-00. SQL 심화.md",
     "Obsidian_vault/00. Data Engineer Roadmap.canvas",
     "README.md",
@@ -181,7 +191,6 @@
     "Obsidian_vault/5. CI, CD와 가상화/5-1. 젠킨스/5-1. Jenkins(젠킨스).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-0. 인공 지능(AI).md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-1. 파이썬 - 플라스크/7-1-0. 파이썬 - 플라스크.md",
-    "Obsidian_vault/1. 프로그램 언어/1-1. 파이썬 Python/1-1-0. 파이썬 Python.md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-3. 자바 - 스프링",
