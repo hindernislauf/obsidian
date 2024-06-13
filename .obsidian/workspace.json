@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md"
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md"
               }
             }
           },
@@ -157,8 +157,14 @@
   },
   "active": "cf127d60fc6e65cd",
   "lastOpenFiles": [
-    "Obsidian_vault/00. CS 기초 지식/디자인 패턴.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
+    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
+    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘",
+    "Obsidian_vault/16. 데이터 시각화/16-00-00. 데이터 시각화.md",
+    "Obsidian_vault/16. 데이터 시각화/16-01. Tableau(태블로)/16-01-00. Tableau(태블로).md",
+    "Obsidian_vault/03. SQL/03-01. SQL 기초/03-01-00. SQL 기초.md",
+    "Obsidian_vault/03. SQL/03-02. SQL 심화/03-02-00. SQL 심화.md",
+    "Obsidian_vault/00. CS 기초 지식/디자인 패턴.md",
     "Obsidian_vault/07. CI, CD와 가상화/07-03. 쿠버네티스/07-03-00. Kubernetes(쿠버네티스).md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-3 스케줄링.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-2 프로세스.md",
@@ -177,12 +183,6 @@
     "Obsidian_vault/01. 프로그램 언어/01-02. 자바 Java/01-02-00. 자바 Java.md",
     "Obsidian_vault/02. 데이터베이스/02-00-00. 데이터베이스.md",
     "Obsidian_vault/02. 데이터베이스/02-04-00. 검색 엔진/02-04-01. Elastic Search(엘라스틱 서치).md",
-    "Obsidian_vault/02. 데이터베이스/02-04-00. 검색 엔진/02-04-00. 검색 엔진.md",
-    "Obsidian_vault/02. 데이터베이스/02-03-00. No SQL/02-03-05. Neo4j(네오포제이).md",
-    "Obsidian_vault/02. 데이터베이스/02-03-00. No SQL/02-03-02. Redis(레디스).md",
-    "Obsidian_vault/02. 데이터베이스/02-03-00. No SQL/02-03-03. Apache Cassandra(아파치 카산드라).md",
-    "Obsidian_vault/02. 데이터베이스/02-03-00. No SQL/02-03-00. No SQL.md",
-    "Obsidian_vault/02. 데이터베이스/02-03-00. No SQL/02-03-01. Mongo DB(몽고 DB).md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약",
@@ -204,7 +204,6 @@
     "Obsidian_vault/0. 미디어 파일 저장소/Data Engineer Roadmap 2024.png",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-3. 자바 - 스프링",
     "Obsidian_vault/0. 미디어 파일 저장소/다운로드.png",
     "Obsidian Vault/무제 파일.canvas",
     "Obsidian Vault/무제 파일 1.canvas"
