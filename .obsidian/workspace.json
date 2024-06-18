@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow.md"
+                "file": "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md"
               }
             }
           },
@@ -157,8 +157,15 @@
   },
   "active": "cf127d60fc6e65cd",
   "lastOpenFiles": [
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/2-4. Context와 Template.md",
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md",
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/2-3. Task 데코레이터.md",
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/1-1. Apache Airflow.md",
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/2-1. Email 오퍼레이터.md",
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/2-2. Python 오퍼레이터.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
+    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow",
     "Obsidian_vault/06. SW 테스팅/06-01. 기능 테스트/06-01-00. Functional Test(기능 테스트).md",
-    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
     "Obsidian_vault/00. CS 기초 지식/00-00-01. 리눅스.md",
@@ -178,12 +185,6 @@
     "Obsidian_vault/00. CS 기초 지식/플라스크 기초.md",
     "Obsidian_vault/00. CS 기초 지식/OSI 7 Layer.md",
     "Obsidian_vault/01. 프로그램 언어/01-01. 파이썬 Python/01-01-00. 파이썬 Python.md",
-    "Obsidian_vault/01. 프로그램 언어/01-03. 스칼라 Scala/01-03-00. 스칼라 Scala.md",
-    "Obsidian_vault/01. 프로그램 언어/01-04. R/01-04-00. R.md",
-    "Obsidian_vault/01. 프로그램 언어/01-05. 고랭 Golang/01-05-00. 고랭 Golang.md",
-    "Obsidian_vault/01. 프로그램 언어/01-00-00. 프로그램 언어.md",
-    "Obsidian_vault/01. 프로그램 언어/01-02. 자바 Java/01-02-00. 자바 Java.md",
-    "Obsidian_vault/02. 데이터베이스/02-00-00. 데이터베이스.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약",
@@ -204,7 +205,6 @@
     "무제 파일 1.canvas",
     "Obsidian_vault/0. 미디어 파일 저장소/Data Engineer Roadmap 2024.png",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코",
     "Obsidian_vault/0. 미디어 파일 저장소/다운로드.png",
     "Obsidian Vault/무제 파일.canvas",
     "Obsidian Vault/무제 파일 1.canvas"
