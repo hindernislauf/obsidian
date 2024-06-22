@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/네트워크.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-03 데이터베이스/00-03-02 관계형 데이터베이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4893db5029636421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/네트워크.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/네트워크.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/네트워크.md"
+                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md"
               }
             }
           },
@@ -155,10 +168,32 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "05cafa292f87d8dc",
+  "active": "4893db5029636421",
   "lastOpenFiles": [
+    "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-01 운영체제.md",
+    "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
+    "Obsidian_vault/00. CS 기초 지식/00-06 부록",
+    "Obsidian_vault/00. CS 기초 지식/00-05 알고리즘",
+    "Obsidian_vault/00. CS 기초 지식/00-04 자료구조",
+    "Obsidian_vault/00. CS 기초 지식/00-03 데이터베이스",
+    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-01 네트워크 계층.md",
+    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크",
     "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
-    "Obsidian_vault/00. CS 기초 지식/네트워크.md",
+    "Obsidian_vault/00. CS 기초 지식/00-01 운영체제",
+    "Obsidian_vault/00. CS 기초 지식/00-03 데이터베이스/00-03-02 관계형 데이터베이스.md",
+    "Pasted image 20240607175340.png",
+    "Pasted image 20240607174700.png",
+    "Pasted image 20240602145213.png",
+    "Pasted image 20240602144952.png",
+    "Pasted image 20240602143947.png",
+    "Pasted image 20240531170703.png",
+    "Pasted image 20240531170652.png",
+    "Pasted image 20240531170606.png",
+    "Pasted image 20240531170451.png",
+    "data engineer/게임 잡 디스크립션.md",
+    "data engineer/엔터 잡 디스크립션.md",
+    "data engineer/잡 디스크립션.md",
+    "data engineer",
     "Obsidian_vault/Data Engineer (데이터 엔지니어).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-8. PyTorch(파이토치).md",
     "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-7. Numpy(넘파이).md",
@@ -181,26 +216,9 @@
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버/7-5-0. 고랭 - 파이버.md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코/7-4-0. 고랭 - 에코.md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-3. 자바 - 스프링/7-3-0. 자바 - 스프링.md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-2. 파이썬 - 장고/7-2-0. 파이썬 - 장고.md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-3. 자바 - 스프링",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-2. 파이썬 - 장고",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-1. 파이썬 - 플라스크",
-    "Obsidian Vault/7. 웹 프레임워크 & 라우터/무제 파일.md",
-    "Obsidian Vault/7. 웹 프레임워크 & 라우터/무제 파일 1.md",
-    "Obsidian Vault/7. 웹 프레임워크 & 라우터/7-1. 웹 프레임워크 & 라우터/7-1. 웹 프레임워크  & 라우터.md",
-    "Obsidian_vault/6. 데이터베이스/6-4. 검색 엔진/6-4-1. Elastic Search(엘라스틱 서치).md",
-    "Obsidian_vault/6. 데이터베이스/6-3. No SQL/6-3-6. Couch DB(카우치 DB).md",
-    "Obsidian_vault/18. 용어 편람",
-    "Obsidian_vault/17. 클라우드/17-3. Azure(애져)",
-    "Obsidian_vault/17. 클라우드/17-2. Google 클라우드",
-    "Obsidian_vault/17. 클라우드/17-1. AWS",
-    "Obsidian_vault/16. MLOps/16-4. MLFlow(ML플로우)",
-    "Obsidian_vault/0. 미디어 파일 저장소/다운로드.png",
     "Obsidian Vault/무제 파일.canvas",
-    "Obsidian Vault/무제 파일 1.canvas",
-    "다운로드.png",
-    "다운로드 1.png"
+    "Obsidian Vault/무제 파일 1.canvas"
   ]
 }
