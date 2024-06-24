@@ -128,4 +128,91 @@
 			(1) def __ init__
 				-> 클래스에서 객체 생성시 객체에 대한 초기값 지정하는 함수
 			(2) def execute(self, context)
-				->
+				->실제 로직을 담은 함수
+			(3) Template 적용이 필요한 변수는 class 변수 template_fields에 지정 필요
+	- ## Custom 오퍼레이터 만들기
+		- API의 전체 row를 가져오고 결과를 csv로 저장할 수 있는 오퍼레에터 만들기
+		- 위치: plugins/operators
+		- seoul_api_to_csv_operator.py
+			```jsx
+			from airflow.models.baseoperator import BaseOperator
+			from airflow.hooks.base import BaseHook
+			import pandas as pd 
+			
+			class SeoulApiToCsvOperator(BaseOperator):
+			    template_fields = ('endpoint', 'path','file_name','base_dt')
+			
+			    def __init__(self, dataset_nm, path, file_name, base_dt=None, **kwargs):
+			        super().__init__(**kwargs)
+			        self.http_conn_id = 'openapi.seoul.go.kr'
+			        self.path = path
+			        self.file_name = file_name
+			        self.endpoint = '{{var.value.apikey_openapi_seoul_go_kr}}/json/' + dataset_nm
+			        self.base_dt = base_dt
+			
+			    def execute(self, context):
+			        import os
+			        
+			        connection = BaseHook.get_connection(self.http_conn_id)
+			        self.base_url = f'http://{connection.host}:{connection.port}/{self.endpoint}'
+			
+			        total_row_df = pd.DataFrame()
+			        start_row = 1
+			        end_row = 1000
+			        while True:
+			            self.log.info(f'시작:{start_row}')
+			            self.log.info(f'끝:{end_row}')
+			            row_df = self._call_api(self.base_url, start_row, end_row)
+			            total_row_df = pd.concat([total_row_df, row_df])
+			            if len(row_df) < 1000:
+			                break
+			            else:
+			                start_row = end_row + 1
+			                end_row += 1000
+			
+			        if not os.path.exists(self.path):
+			            os.system(f'mkdir -p {self.path}')
+			        total_row_df.to_csv(self.path + '/' + self.file_name, encoding='utf-8', index=False)
+			
+			    def _call_api(self, base_url, start_row, end_row):
+			        import requests
+			        import json 
+			
+			        headers = {'Content-Type': 'application/json',
+			                   'charset': 'utf-8',
+			                   'Accept': '*/*'
+			                   }
+			
+			        request_url = f'{base_url}/{start_row}/{end_row}/'
+			        if self.base_dt is not None:
+			            request_url = f'{base_url}/{start_row}/{end_row}/{self.base_dt}'
+			        response = requests.get(request_url, headers)
+			        contents = json.loads(response.text)
+			
+			        key_nm = list(contents.keys())[0]
+			        row_data = contents.get(key_nm).get('row')
+			        row_df = pd.DataFrame(row_data)
+			
+			        return row_df
+			```
+		- Custom Operator를 사용해서 task를 수행할 DAG 만들기
+		- dags_seoul_bikelist
+			```jsx
+			from operators.seoul_api_to_csv_operator import SeoulApiToCsvOperator
+			from airflow import DAG
+			import pendulum
+			
+			with DAG(
+			    dag_id='dags_seoul_bikelist',
+			    schedule='0 7 * * *',
+			    start_date=pendulum.datetime(2024,6,16, tz='Asia/Seoul'),
+			    catchup=False
+			) as dag:
+			    '''서울시 공공자전거 실시간 대여 현황'''
+			    seoul_api2csv_bike_list = SeoulApiToCsvOperator(
+			        task_id='seoul_api2csv_bike_list',
+			        dataset_nm='bikeList',
+			        path='/opt/airflow/files/bikeList/{{data_interval_end.in_timezone("Asia/Seoul") | ds_nodash }}',
+			        file_name='bikeList.csv'
+			    )
+			```
