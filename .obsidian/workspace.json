@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md"
+                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md"
               }
             }
           },
@@ -170,13 +170,14 @@
   },
   "active": "4893db5029636421",
   "lastOpenFiles": [
-    "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-01 운영체제.md",
+    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-01 네트워크 계층.md",
     "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
+    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
+    "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-01 운영체제.md",
     "Obsidian_vault/00. CS 기초 지식/00-06 부록",
     "Obsidian_vault/00. CS 기초 지식/00-05 알고리즘",
     "Obsidian_vault/00. CS 기초 지식/00-04 자료구조",
     "Obsidian_vault/00. CS 기초 지식/00-03 데이터베이스",
-    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-01 네트워크 계층.md",
     "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크",
     "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
     "Obsidian_vault/00. CS 기초 지식/00-01 운영체제",
