@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "de868327807a2599",
+        "id": "8fc1b7a78454759c",
         "type": "tabs",
         "children": [
           {
-            "id": "f0c5269a05db9b6d",
+            "id": "9525cc76fd9214cd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "00. Data Engineer Roadmap.canvas",
-                "viewState": {
-                  "x": -45,
-                  "y": 12062.975195312501,
-                  "zoom": -4
-                }
-              }
-            }
-          },
-          {
-            "id": "ed6874b296545106",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +138,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ed6874b296545106",
+  "active": "9525cc76fd9214cd",
   "lastOpenFiles": [
     "01. 프로그램 언어/01-00-00. 프로그램 언어.md",
     "00. Data Engineer Roadmap.canvas",
