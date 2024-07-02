@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
-                "mode": "preview",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md"
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md"
               }
             }
           },
@@ -157,9 +157,9 @@
   },
   "active": "e5bb5c0767efce28",
   "lastOpenFiles": [
+    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-3 스케줄링.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
     "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/1-1. Apache Airflow.md",
     "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md",
     "Obsidian_vault/07. CI, CD와 가상화/07-02. 도커/07-02-00. Docker(도커).md",

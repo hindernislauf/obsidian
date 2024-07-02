@@ -7,7 +7,7 @@
 			⇒ REST는 자원을 명시해 연산을 수행하고 상태를 주고받는 것
 	- ## REST의 특징
 		- **일관된 인터페이스**
-			- 자원을 나타내는 URI[^1]를 HTTP 메서드로 조작하는 일관된 인터페이스를 사용
+			- 자원을 나타내는 URI를 HTTP 메서드로 조작하는 일관된 인터페이스를 사용
 			- HTTP를 따르는 모든 플랫폼에서 REST 사용 가능
 		- **클라이언트-서버 구조**
 			- 클라이언트와 서버 간에 요청-응답의 독립적 구조를 가짐
@@ -27,15 +27,17 @@
 	- ## REST의 장단점
 		- 장점: HTTP를 기반으로 하기 때문에 별도의 인프라를 구축할 필요가 없음
 		- 단점: HTTP 메서드를 사용해 자원에 대한 연산을 처리하므로 동작이 한정적임
-	**URI**(Uniform Resource Identifier): 인터넷에 있는 자원을 나타내는 주소 → URL과 URN을 포함하는 개념
-	**URL**(Uniform Resource Locator): 인터넷에서 자원의 위치를 알 수 있는 규약 / 웹 사이트 주소와 인터넷의 모든 자원 표현 가능 → 자원의 위치를 나타내기 위한 규약
-	**URN**(Uniform Resource Name): 자원의 위치 정보가 아닌 실제 자원을 특정 → 자원의 고유 코드를 나타내기 위한 규약
-	![250](https://i.imgur.com/Rgwe4ge.png)
+	- ### URI, URL, URN
+		**URI**(Uniform Resource Identifier): 인터넷에 있는 자원을 나타내는 주소 → **URL과 URN을 포함하는 개념**
+		**URL**(Uniform Resource Locator): 인터넷에서 자원의 위치를 알 수 있는 규약 / 웹 사이트 주소와 인터넷의 모든 자원 표현 가능 → **자원의 위치를 나타내기 위한 규약**
+		**URN**(Uniform Resource Name): 자원의 위치 정보가 아닌 실제 자원을 특정 → **자원의 고유 코드를 나타내기 위한 규약**
+		![250](https://i.imgur.com/Rgwe4ge.png)
+---
 - # 2.4.2 REST API ★★★
 	- ## REST API의 개념
 		- REST를 기반으로 한 API를 의미
 		- API(Application Programming Interface): 다른 소프트웨어에 서비스를 제공하기 위한 소프트웨어 인터페이스
-			⇒ REST를 기반으로 한 인터페이스
+			⇒ **REST를 기반으로 한 인터페이스**
 	- ## REST API 구성
 		- 자원의 식별: URI
 		- 자원에 대한 행위(처리): HTTP 메서드
@@ -47,8 +49,8 @@
 		   응답에는 요청에 대한 처리 성공 여부와 정보를 포함
 		4. 응답 메시지는 자원에 대한 정보를 JSON 또는 XML 등의 형태로 포함하고 있음
 		   클라이언트는 해당 형태의 정보를 수신함
-	   ![500](https://i.imgur.com/ZKgZv7o.png)
-	- ### * RESTful한 API 서비스 규칙
+	   ![600](https://i.imgur.com/ZKgZv7o.png)
+	- ### RESTful한 API 서비스 규칙
 		- RESTful: REST 규칙을 지키며 API를 제공하는 서비스를 RESTful하다고 표현
 			- 자원에 대한 행위는 HTTP 메서드로 나타냄
 			  HTTP 메서드나 행위에 대한 표현이 URI에 들어가면 안됨
@@ -60,10 +62,10 @@
 	- ## HTTP 메서드의 개념
 		- HTTP 메서드 : 클라이언트가 요청을 보낼 때 요청에 포함된 HTTP 메서드는 요청의 종류와 목적을 나타냄
 		- 주로 사용하는 HTTP 메서드 종류
-			- `POST`: 데이터를 생성할 때 사용 → `Create(생성)`
-			- `GET`: 데이터를 조회할 때 사용 → `Read(조회)`
-			- `PUT`:  데이터를 갱신할 때 사용 → `Update(갱신)`
-			- `DELETE`: 데이터를 제거할 때 사용 → `Delete(삭제)`
+			- `POST`: 데이터를 **생성**할 때 사용 → `Create(생성)`
+			- `GET`: 데이터를 **조회**할 때 사용 → `Read(조회)`
+			- `PUT`:  데이터를 **갱신**할 때 사용 → `Update(갱신)`
+			- `DELETE`: 데이터를 **제거**할 때 사용 → `Delete(삭제)`
 	- ### 기타 HTTP 메서드 종류
 		- `PATCH`: 데이터를 일부 갱신할 때 사용
 		- `HEAD`: `GET`과 동일하게 데이터 조회 시 사용하나, HTTP 메시지에 body를 포함하지 않고 header로만 응답
