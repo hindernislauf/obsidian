@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4266738ec5cce6f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04 자료구조/00-04-02 선형 자료구조.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04 자료구조/00-04-02 선형 자료구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04 자료구조/00-04-02 선형 자료구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md"
+                "file": "Obsidian_vault/00. CS 기초 지식/00-04 자료구조/00-04-02 선형 자료구조.md"
               }
             }
           },
@@ -168,11 +180,14 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "4893db5029636421",
+  "active": "4266738ec5cce6f3",
   "lastOpenFiles": [
+    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
+    "Obsidian_vault/00. CS 기초 지식/00-04 자료구조/00-04-02 선형 자료구조.md",
     "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-01 네트워크 계층.md",
     "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-06 캐시 메모리.md",
-    "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크/00-02-02 TCP와 UDP.md",
+    "Obsidian_vault/00. CS 기초 지식/00-03 데이터베이스/00-03-02 관계형 데이터베이스.md",
+    "Obsidian_vault/00. CS 기초 지식/00.md",
     "Obsidian_vault/00. CS 기초 지식/00-01 운영체제/00-01-01 운영체제.md",
     "Obsidian_vault/00. CS 기초 지식/00-06 부록",
     "Obsidian_vault/00. CS 기초 지식/00-05 알고리즘",
@@ -181,7 +196,6 @@
     "Obsidian_vault/00. CS 기초 지식/00-02 컴퓨터 네트워크",
     "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
     "Obsidian_vault/00. CS 기초 지식/00-01 운영체제",
-    "Obsidian_vault/00. CS 기초 지식/00-03 데이터베이스/00-03-02 관계형 데이터베이스.md",
     "Pasted image 20240607175340.png",
     "Pasted image 20240607174700.png",
     "Pasted image 20240602145213.png",
@@ -214,8 +228,6 @@
     "Obsidian_vault/1. 프로그램 언어/1-1. 파이썬 Python/1-1-0. 파이썬 Python.md",
     "Obsidian_vault/9. 데이터 전처리/9-3. Hybrid(하이브리드)/9-3-1. Apache Spark(아파치 스파크).md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-0. 웹 프레임워크 & 라우터.md",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버/7-5-0. 고랭 - 파이버.md",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코/7-4-0. 고랭 - 에코.md",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코",
     "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-3. 자바 - 스프링",
