@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7322ab18716b4360",
+        "id": "749db8c7f600dd5b",
         "type": "tabs",
         "children": [
           {
-            "id": "05cafa292f87d8dc",
+            "id": "6b9d48543fdf4228",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-01. 그래프.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"# 01 부 데이터 기초 체력 기르기\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "95c1caa69fbfb302",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-01. 그래프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-01. 그래프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md"
+                "file": "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-01. 그래프.md"
               }
             }
           },
@@ -155,12 +156,49 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "05cafa292f87d8dc",
+  "active": "6b9d48543fdf4228",
   "lastOpenFiles": [
-    "Obsidian_vault/README.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-01. 그래프.md",
+    "Pasted image 20240708202618.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-02. 트리.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-03. 우선순위 큐.md",
-    "README.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-05. 해시 테이블.md",
+    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-04. 힙.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기/20-01-02-08. 분석 프로젝트 준비 및 기획/20-01-02-08-02. 비즈니스 문제 정의와 분석 목적 도출.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기/20-01-02-08. 분석 프로젝트 준비 및 기획/20-01-02-08-01. 데이터 분석의 전체 프로세스.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기/20-01-02-08. 분석 프로젝트 준비 및 기획/20-01-02-08-00. 분석 프로젝트 준비 및 기획.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기/20-01-02-11. 데이터 전처리와 파생변수 생성/20-01-02-11-00. 데이터 전처리와 파생변수 생성.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기/20-01-02-11. 데이터 전처리와 파생변수 생성/20-01-02-11-01. 결측값 처리.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/20-01-01-01. 통계학 이해하기/20-01-01-01-00. 통계학 이해하기.md",
+    "Obsidian_vault/20. DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/20-01-01-02. 모집단과 표본 추출/20-01-01-02-00. 모집단과 표본 추출.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/20-01-01-00. 데이터 기초 체력 기르기.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일 3.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일 6.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일 5.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일 4.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일 2.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일 1.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더 6",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더 5",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더 4",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더 3",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 파일.canvas",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더 2",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/무제 폴더 1",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-01. 데이터 기초 체력 기르기/20-01-01-01. 통계학 이해하기",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-03. 데이터 분석하기/20-01-03-00. 데이터 분석하기.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-00. 데이터 분석가가 알아야 할 모든 것.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기/20-01-02-00. 데이터 분석 준비하기.md",
+    "Obsidian_vault/20.DS/20-00. DS.md",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-03. 데이터 분석하기",
+    "Obsidian_vault/20.DS/20-01. 데분모알/20-01-02. 데이터 분석 준비하기",
+    "Obsidian_vault/19. 미디어 파일 저장소/Data Engineer Roadmap 2024.png",
+    "Obsidian_vault/00. Data Engineer Roadmap.canvas",
+    "Obsidian_vault/01. AI Roadmap.canvas",
+    "무제 파일.canvas",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-05.hash_table.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-05.chaining.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_min_heap.png",
@@ -169,44 +207,8 @@
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-04.max_heap_delete.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.균형_불균형.png",
     "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.완전_불완전_이진트리.png",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.tree_insert.gif",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img/04-03-02.tree.png",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/img",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-05. 해시 테이블.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-04. 힙.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
-    "04-03-03.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-00-00. 개발 기본 역량.md",
-    "Obsidian_vault/main. Data Engineer (데이터 엔지니어).md",
-    "Obsidian_vault/01. AI Roadmap.canvas",
-    "Obsidian_vault/00. Data Engineer Roadmap.canvas",
-    "Obsidian_vault/00. CS 기초 지식/00-00-00. CS 기초 지식.md",
-    "Obsidian_vault/19. 미디어 파일 저장소/플라스크 기초",
-    "Obsidian_vault/19. 미디어 파일 저장소/클라우드 기초",
-    "Obsidian_vault/19. 미디어 파일 저장소/DB",
-    "Obsidian_vault/00. CS 기초 지식/플라스크 기초.md",
-    "Obsidian_vault/00. CS 기초 지식/클라우드 기초.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-1 데이터베이스의 종류.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-6 캐시 메모리.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-5 가상 메모리.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-4 메모리 관리 전략.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-3 스케줄링.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-2 프로세스.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-1 운영체제.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약",
-    "Obsidian_vault/00. CS 기초 지식/OSI 7 Layer.md",
-    "Obsidian_vault/00. CS 기초 지식/00-00-01. 리눅스.md",
-    "Obsidian + Github 연결.md",
-    "tree_insert-1(드래그함).tiff",
-    "Obsidian_vault/Data Engineer (데이터 엔지니어).md",
-    "Obsidian_vault/15. 인공 지능(AI)/15-1. ML, DL(머신 러닝, 딥 러닝)/15-1-8. PyTorch(파이토치).md",
     "Obsidian_vault/Data Engineer Roadmap.canvas",
-    "무제 파일.canvas",
     "무제 파일 1.canvas",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-5. 고랭 - 파이버",
-    "Obsidian_vault/7. 웹 프레임워크 & 라우터/7-4. 고랭 - 에코",
     "Obsidian Vault/무제 파일.canvas",
     "Obsidian Vault/무제 파일 1.canvas"
   ]
