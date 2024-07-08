@@ -325,3 +325,5 @@ All configs for broker 0 are:
 - https://github.com/jingene/fastcampus_kafka_handson Part 2. 실무에서 쉽게 써보는 Kafka
 - https://github.com/fast-campus-lecture Part 3. Spring for Apache Kafka
 - https://github.com/freepsw/kafka-metrics-monitoring Part 4. 실시간 모니터링을 위한 Kafka 매트릭 이해
+![](https://i.imgur.com/tnyptjC.png)
+![](https://i.imgur.com/AlerCKU.png)
