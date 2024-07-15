@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md"
+                "file": "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md"
               }
             }
           },
@@ -155,11 +155,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a58a3c8194a97794",
+  "active": "d50a71f4122aa3c3",
   "lastOpenFiles": [
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
-    "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/스파크 (Spark).md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-01. 아파치 하둡/11-01-00. 아파치 하둡.md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크",
