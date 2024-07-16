@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
+                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "e0a2b8ecf1d7e284",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
+                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
+                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md"
+                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md"
               }
             }
           }
@@ -148,8 +149,8 @@
   },
   "active": "9525cc76fd9214cd",
   "lastOpenFiles": [
-    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-1 네트워크 계층.md",
     "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
+    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-1 네트워크 계층.md",
     "01. 프로그램 언어/01-00-00. 프로그램 언어.md",
     "00. Data Engineer Roadmap.canvas",
     "01. AI Roadmap.canvas",
