@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
+                "file": "11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "right": {
     "id": "e0a2b8ecf1d7e284",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
+                "file": "11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
+                "file": "11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md"
+                "file": "11. 클러스터 컴퓨팅/11-05 스파크/실습.md"
               }
             }
           }
@@ -149,6 +148,8 @@
   },
   "active": "9525cc76fd9214cd",
   "lastOpenFiles": [
+    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
+    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
     "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
     "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-1 네트워크 계층.md",
     "01. 프로그램 언어/01-00-00. 프로그램 언어.md",
@@ -182,8 +183,6 @@
     "14. 인공 지능(AI)/14-00-00. 인공 지능(AI).md",
     "14. 인공 지능(AI)/14-02. 인공지능 수학/14-02-00. 인공지능 수학.md",
     "14. 인공 지능(AI)/14-01. ML, DL(머신 러닝, 딥 러닝)/14-01-00. ML, DL(머신 러닝, 딥 러닝).md",
-    "13. 메시징/13-00-00. Messaging(메시징).md",
-    "12. 데이터 웨어하우스/12-00-00. 데이터 웨어하우스.md",
     "17. MLOps/17-04. MLFlow(ML플로우)",
     "17. MLOps/17-03. Amazon Sagemaker(아마존 세이지메이커)",
     "17. MLOps/17-02. Kubeflow(쿠브플로우)",
