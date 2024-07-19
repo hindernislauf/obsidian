@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,7 +155,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a58a3c8194a97794",
+  "active": "d50a71f4122aa3c3",
   "lastOpenFiles": [
     "Obsidian_vault/00. CS 기초 지식/00-00-01. 리눅스.md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
