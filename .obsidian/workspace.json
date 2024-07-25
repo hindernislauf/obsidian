@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "efbedc4117825d98",
+        "id": "817d1b5281d1fbb0",
         "type": "tabs",
         "children": [
           {
-            "id": "a58a3c8194a97794",
+            "id": "01084dc9dcbf4637",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kafka",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,13 +144,32 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "d50a71f4122aa3c3",
+  "active": "01084dc9dcbf4637",
   "lastOpenFiles": [
     "Obsidian_vault/00. CS 기초 지식/00-00-01. 리눅스.md",
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Kafka 실습.md",
+    "Obsidian_vault/00. CS 기초 지식/플라스크 기초.md",
+    "Pasted image 20240722132740.png",
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/카프카 실습.md",
+    "Pasted image 20240725102711.png",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/11-04-02-00. 카프카 아키텍쳐.md",
+    "Obsidian_vault/07. CI, CD와 가상화/07-02. 도커/07-02-00. Docker(도커).md",
+    "Pasted image 20240722164658.png",
+    "Pasted image 20240722164429.png",
+    "Pasted image 20240722162838.png",
+    "Pasted image 20240722162613.png",
+    "Pasted image 20240722162521.png",
+    "Pasted image 20240722161905.png",
+    "Pasted image 20240722161817.png",
+    "Pasted image 20240722161608.png",
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/카프카 개념 설명.md",
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/이름 없는 보드.md",
+    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Apache Kafka 기본 명령어 활용 예시.md",
     "Coding_Test",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-01. 아파치 하둡/11-01-00. 아파치 하둡.md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-02. HDFS/11-02-00. HDFS.md",
@@ -175,37 +186,18 @@
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-1 네트워크 계층.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-6 캐시 메모리.md",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-5 가상 메모리.md",
-    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Apache Kafka 기본 명령어 활용 예시.md",
-    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Kafka 실습.md",
-    "Obsidian_vault/11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/11-04-02-00. 카프카 아키텍쳐.md",
     "Obsidian_vault/09. 클라우드/09-02. Google 클라우드/09-02-00. Google Cloud.md",
-    "README.md",
-    "Obsidian + Github 연결.md",
-    "Obsidian_vault/main. Data Engineer (데이터 엔지니어).md",
-    "Obsidian_vault/00. CS 기초 지식/클라우드 기초.md",
-    "Obsidian_vault/04. 개발 기본 역량/04-03. 데이터 구조, 알고리즘/04-03-00. 데이터 구조, 알고리즘.md",
-    "Obsidian_vault/04. 개발 기본 역량/Apache Airflow/1-1. Apache Airflow.md",
     "Obsidian_vault/04. 개발 기본 역량/Apache Airflow",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약",
     "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제",
-    "Obsidian_vault/19. 미디어 파일 저장소/플라스크 기초/Pasted image 20240514114229.png",
-    "Obsidian_vault/19. 미디어 파일 저장소/플라스크 기초/Pasted image 20240514113648.png",
-    "Obsidian_vault/19. 미디어 파일 저장소/플라스크 기초/Pasted image 20240514100716.png",
     "Obsidian_vault/19. 미디어 파일 저장소/플라스크 기초",
-    "Obsidian_vault/19. 미디어 파일 저장소/클라우드 기초/Pasted image 20240514161605.png",
-    "Obsidian_vault/19. 미디어 파일 저장소/클라우드 기초/Pasted image 20240514161509.png",
     "Obsidian_vault/19. 미디어 파일 저장소/클라우드 기초",
-    "Obsidian_vault/19. 미디어 파일 저장소/DB/Pasted image 20240516101058.png",
-    "Obsidian_vault/19. 미디어 파일 저장소/DB/Pasted image 20240516100835.png",
-    "Obsidian_vault/19. 미디어 파일 저장소/DB/Pasted image 20240514162952.png",
     "Obsidian_vault/Data Engineer Roadmap.canvas",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
-    "Obsidian_vault/0. 미디어 파일 저장소/Data Engineer Roadmap 2024.png",
-    "Obsidian_vault/0. 미디어 파일 저장소/다운로드.png",
     "Obsidian Vault/무제 파일.canvas",
     "Obsidian Vault/무제 파일 1.canvas"
   ]
