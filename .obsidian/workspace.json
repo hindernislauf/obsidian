@@ -11,8 +11,12 @@
             "id": "01084dc9dcbf4637",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian_vault/study/Data Pipeline/데이터 파이프라인 소개.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian_vault/study/Data Pipeline/데이터 파이프라인 소개.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian_vault/study/Data Pipeline/데이터 파이프라인 소개.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian_vault/study/Data Pipeline/데이터 파이프라인 소개.md"
+              }
             }
           },
           {
@@ -150,6 +158,10 @@
   },
   "active": "01084dc9dcbf4637",
   "lastOpenFiles": [
+    "Obsidian_vault/study/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-6 캐시 메모리.md",
+    "Obsidian_vault/study/Data Pipeline/데이터 파이프라인 소개.md",
+    "Obsidian_vault/study/Data Pipeline",
+    "Obsidian_vault/study",
     "Obsidian_vault/17. MLOps/YD_MLOps/실습.md",
     "Obsidian_vault/17. MLOps/17-00-00. MLOps.md",
     "Obsidian_vault/17. MLOps/YD_MLOps/MLOps 엔지니어링 개요.md",
@@ -185,17 +197,13 @@
     "Coding_Test",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-01. 아파치 하둡/11-01-00. 아파치 하둡.md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-02. HDFS/11-02-00. HDFS.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-1 정렬 알고리즘.md",
+    "Obsidian_vault/study/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
     "Obsidian_vault/11. 클러스터 컴퓨팅/11-05 스파크",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
     "Obsidian_vault/04. 개발 기본 역량/Apache Airflow",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약",
-    "Obsidian_vault/00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제",
-    "Obsidian_vault/19. 미디어 파일 저장소/플라스크 기초",
+    "Obsidian_vault/study/기술 면접 대비 CS전공 핵심요약/5장 알고리즘",
+    "Obsidian_vault/study/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스",
+    "Obsidian_vault/study/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크",
+    "Obsidian_vault/study/기술 면접 대비 CS전공 핵심요약",
     "Obsidian_vault/Data Engineer Roadmap.canvas",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
