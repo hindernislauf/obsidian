@@ -1,0 +1,107 @@
+- # Postgres WAL(Write-Ahead Log)
+	- WAL은 PostgreSQL에서 데이터의 무결성을 보장하는 표준 방법
+	- 모든 데이터의 변경을 로깅 완료 후에 실행하는 것
+	-  WAL 기록을 영구적인 저장소에 먼저 기록한 후에 데이터의 변경 내용을 실행하는 것
+	- 충돌 혹은 데이터에 문제가 있을 때 WAL 로깅 내용을 바탕으로 특정 시점으로 복구가 가능하여 데이터 무결성을 보장
+	- 모든 트랜잭션 커밋 시마다 디스크의 데이터를 flush 할 필요 없다
+	- WAL을 사용하면 디스크 쓰기 횟수가 현저히 줄어든다
+- ## Orders 테이블 생성, 샘플 행 삽입
+	```sql
+	CREATE TABLE Orders (
+	  OrderId int,
+	  OrderStatus varchar(30),
+	  LastUpdated timestamp
+	);
+	
+	INSERT INTO Orders
+	  VALUES(1,'Backordered', '2020-06-01 12:00:00');
+	INSERT INTO Orders
+	  VALUES(1,'Shipped', '2020-06-09 12:00:25');
+	INSERT INTO Orders
+	  VALUES(2,'Shipped', '2020-07-11 3:05:00');
+	INSERT INTO Orders
+	  VALUES(1,'Shipped', '2020-06-09 11:50:00');
+	INSERT INTO Orders
+	  VALUES(3,'Shipped', '2020-07-12 12:00:00');
+	```
+- ## 전체 또는 증분 Postgres 테이블 추출
+	- `MySQL 데이터베이스 데이터 추출` 설명과 유사
+	- 차이점 : 데이터 추출하는 데 사용하는 파이썬 라이브러리
+		- `pyMySQL` 대신 `pyscopg2`
+		`(env) $ pip install pyscopg2`
+	- ### pipeline.conf 파일에 새 섹션 추가
+		```
+		[postgres_config]
+		host = myhost.com
+		port = 5432
+		username = my_username
+		password = my_password
+		database = db_name
+		```
+	- ### pyscopg2 데이터베이스 연결 쿼리
+		```python
+		import psycopg2
+		import csv
+		import boto3
+		import configparser
+		
+		parser = configparser.ConfigParser()
+		parser.read("pipeline.conf")
+		dbname = parser.get("postgres_config", "database")
+		user = parser.get("postgres_config", "username")
+		password = parser.get("postgres_config",
+		    "password")
+		host = parser.get("postgres_config", "host")
+		port = parser.get("postgres_config", "port")
+		
+		conn = psycopg2.connect(
+		        "dbname=" + dbname
+		        + " user=" + user
+		        + " password=" + password
+		        + " host=" + host,
+		        port = port)
+		
+		m_query = "SELECT * FROM Orders;"
+		local_filename = "order_extract.csv"
+		
+		m_cursor = conn.cursor()
+		m_cursor.execute(m_query)
+		results = m_cursor.fetchall()
+		
+		with open(local_filename, 'w') as fp:
+		  csv_w = csv.writer(fp, delimiter='|')
+		  csv_w.writerows(results)
+		
+		fp.close()
+		m_cursor.close()
+		conn.close()
+		
+		# load the aws_boto_credentials values
+		parser = configparser.ConfigParser()
+		parser.read("pipeline.conf")
+		access_key = parser.get(
+		                "aws_boto_credentials",
+		                "access_key")
+		secret_key = parser.get(
+		                "aws_boto_credentials",
+		                "secret_key")
+		bucket_name = parser.get(
+		                "aws_boto_credentials",
+		                "bucket_name")
+		
+		s3 = boto3.client(
+		        's3',
+		        aws_access_key_id=access_key, aws_secret_access_key=secret_key)
+		
+		s3_file = local_filename
+		
+		s3.upload_file(
+		    local_filename,
+		    bucket_name,
+		    s3_file)
+		```
+- # Write-Ahead 로그를 사용한 데이터 복제
+	- Postgres WAL은 추출을 위한 CDC 방법으로 사용할 수 있다.
+	- Dedezium 이라는 오픈 소스 분산 플랫폼을 사용하여 Postgres WAL의 콘텐츠를 S3버킷이나 데이터 웨어하우스로 스트리밍 하는것을 제안 한다
+	- Dedezium
+	- 70p `카프카 및 Dedezium을 통한 스트리밍 데이터 수집` 에서 설명
