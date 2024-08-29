@@ -29,7 +29,7 @@
 	- 차이점 : 데이터 추출하는 데 사용하는 파이썬 라이브러리
 		- `pyMySQL` 대신 `pyscopg2`
 		`(env) $ pip install pyscopg2`
-	- ### pipeline.conf 파일에 새 섹션 추가
+	- ### pipeline.conf 파일에 추가
 		```
 		[postgres_config]
 		host = myhost.com
@@ -45,60 +45,66 @@
 		import boto3
 		import configparser
 		
+		# 설정 파일 읽기 위한 ConfigParser 객체 생성
 		parser = configparser.ConfigParser()
 		parser.read("pipeline.conf")
+		
+		# PostgreSQL 데이터베이스 접속 정보 읽기
 		dbname = parser.get("postgres_config", "database")
 		user = parser.get("postgres_config", "username")
-		password = parser.get("postgres_config",
-		    "password")
+		password = parser.get("postgres_config", "password")
 		host = parser.get("postgres_config", "host")
 		port = parser.get("postgres_config", "port")
 		
+		# PostgreSQL 데이터베이스에 연결
 		conn = psycopg2.connect(
-		        "dbname=" + dbname
-		        + " user=" + user
-		        + " password=" + password
-		        + " host=" + host,
-		        port = port)
+		    "dbname=" + dbname
+		    + " user=" + user
+		    + " password=" + password
+		    + " host=" + host,
+		    port=port
+		)
 		
-		m_query = "SELECT * FROM Orders;"
-		local_filename = "order_extract.csv"
+		# SQL 쿼리 설정 및 로컬 파일명 지정
+		m_query = "SELECT * FROM Orders;"  # 주문 테이블에서 모든 데이터 조회
+		local_filename = "order_extract.csv"  # 결과를 저장할 로컬 CSV 파일 이름
 		
+		# 커서 생성 및 쿼리 실행
 		m_cursor = conn.cursor()
 		m_cursor.execute(m_query)
-		results = m_cursor.fetchall()
+		results = m_cursor.fetchall()  # 쿼리 결과 가져오기
 		
+		# 쿼리 결과를 CSV 파일로 저장
 		with open(local_filename, 'w') as fp:
-		  csv_w = csv.writer(fp, delimiter='|')
-		  csv_w.writerows(results)
+		    csv_w = csv.writer(fp, delimiter='|')
+		    csv_w.writerows(results)
 		
+		# 파일 닫기 및 데이터베이스 연결 해제
 		fp.close()
 		m_cursor.close()
 		conn.close()
 		
-		# load the aws_boto_credentials values
+		# AWS Boto3 자격 증명 정보 로드
 		parser = configparser.ConfigParser()
 		parser.read("pipeline.conf")
-		access_key = parser.get(
-		                "aws_boto_credentials",
-		                "access_key")
-		secret_key = parser.get(
-		                "aws_boto_credentials",
-		                "secret_key")
-		bucket_name = parser.get(
-		                "aws_boto_credentials",
-		                "bucket_name")
+		access_key = parser.get("aws_boto_credentials", "access_key")
+		secret_key = parser.get("aws_boto_credentials", "secret_key")
+		bucket_name = parser.get("aws_boto_credentials", "bucket_name")
 		
+		# Boto3 클라이언트 생성
 		s3 = boto3.client(
-		        's3',
-		        aws_access_key_id=access_key, aws_secret_access_key=secret_key)
+		    's3',
+		    aws_access_key_id=access_key,
+		    aws_secret_access_key=secret_key
+		)
 		
+		# 로컬 파일을 S3에 업로드
 		s3_file = local_filename
-		
 		s3.upload_file(
 		    local_filename,
 		    bucket_name,
-		    s3_file)
+		    s3_file
+		)
 		```
 - # Write-Ahead 로그를 사용한 데이터 복제
 	- Postgres WAL은 추출을 위한 CDC 방법으로 사용할 수 있다.
