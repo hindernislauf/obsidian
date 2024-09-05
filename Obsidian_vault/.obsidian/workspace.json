@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e0a2b8ecf1d7e284",
@@ -146,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "58af828647883f3c",
+  "active": "9525cc76fd9214cd",
   "lastOpenFiles": [
     "Pasted image 20240905144724.png",
     "study/Data Pipeline/06. 데이터 변환하기.md",
