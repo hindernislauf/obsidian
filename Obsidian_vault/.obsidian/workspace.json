@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Data Pipeline/PostgreSQL 데이터베이스에서 데이터 추출.md",
+                "file": "study/Data Pipeline/06. 데이터 변환하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/Data Pipeline/PostgreSQL 데이터베이스에서 데이터 추출.md",
+                "file": "study/Data Pipeline/06. 데이터 변환하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/Data Pipeline/PostgreSQL 데이터베이스에서 데이터 추출.md",
+                "file": "study/Data Pipeline/06. 데이터 변환하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/Data Pipeline/PostgreSQL 데이터베이스에서 데이터 추출.md"
+                "file": "study/Data Pipeline/06. 데이터 변환하기.md"
               }
             }
           }
@@ -146,17 +146,29 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9525cc76fd9214cd",
+  "active": "58af828647883f3c",
   "lastOpenFiles": [
-    "study/Data Pipeline/데이터 파이프라인 소개.md",
-    "study/Data Pipeline/PostgreSQL 데이터베이스에서 데이터 추출.md",
+    "Pasted image 20240905144724.png",
+    "study/Data Pipeline/06. 데이터 변환하기.md",
+    "Pasted image 20240905144635.png",
+    "Pasted image 20240905144619.png",
+    "study/Data Pipeline/01. 데이터 파이프라인 소개.md",
+    "study/Data Pipeline/04. PostgreSQL 데이터베이스에서 데이터 추출.md",
+    "11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Apache Kafka 기본 명령어 활용 예시.md",
+    "11. 클러스터 컴퓨팅/11-02. HDFS/11-02-00. HDFS.md",
+    "03. SQL/03-01. SQL 기초/03-01-00. SQL 기초.md",
+    "01. 프로그램 언어/01-01. 파이썬 Python/01-01-00. 파이썬 Python.md",
+    "01. 프로그램 언어/01-02. 자바 Java/01-02-00. 자바 Java.md",
+    "01. 프로그램 언어/01-05. 고랭 Golang/01-05-00. 고랭 Golang.md",
+    "01. 프로그램 언어/01-03. 스칼라 Scala/01-03-00. 스칼라 Scala.md",
+    "00. CS 기초 지식/플라스크 기초.md",
+    "00. CS 기초 지식/클라우드 기초.md",
     "10. 객체 저장소/10-00-00. 객체 저장소.md",
     "11. 클러스터 컴퓨팅/11-05 스파크/실습.md",
     "11. 클러스터 컴퓨팅/11-05 스파크/스파크 (Spark).md",
     "11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Kafka 실습.md",
     "07. CI, CD와 가상화/07-03. 쿠버네티스/07-03-00. Kubernetes(쿠버네티스).md",
     "09. 클라우드/09-01. AWS/09-01-00. AWS.md",
-    "11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/Apache Kafka 기본 명령어 활용 예시.md",
     "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-2 프로세스.md",
     "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/1장 운영체제/1-1 운영체제.md",
     "11. 클러스터 컴퓨팅/11-04. 람다 & 카프카 아키텍쳐/11-04-02. 카프카 아키텍쳐/11-04-02-00. 카프카 아키텍쳐.md",
@@ -164,16 +176,6 @@
     "02. 데이터베이스/02-04-00. 검색 엔진/02-04-00. 검색 엔진.md",
     "04. 개발 기본 역량/Apache Airflow/08 More 오퍼레이터.md",
     "04. 개발 기본 역량/Apache Airflow/2-4. Context와 Template.md",
-    "04. 개발 기본 역량/Apache Airflow/2-2. Python 오퍼레이터.md",
-    "04. 개발 기본 역량/Apache Airflow/2-1. Email 오퍼레이터.md",
-    "04. 개발 기본 역량/Apache Airflow/1-1. Apache Airflow.md",
-    "00. CS 기초 지식/00-00-01. 리눅스.md",
-    "07. CI, CD와 가상화/07-02. 도커/07-02-00. Docker(도커).md",
-    "11. 클러스터 컴퓨팅/11-01. 아파치 하둡/11-01-00. 아파치 하둡.md",
-    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/5장 알고리즘/5-3 최단 거리 알고리즘.md",
-    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/3장 데이터베이스/3-2 관계형 데이터 베이스.md",
-    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-4 REST.md",
-    "00. CS 기초 지식/기술 면접 대비 CS전공 핵심요약/2장 컴퓨터 네트워크/2-1 네트워크 계층.md",
     "00. Data Engineer Roadmap.canvas",
     "01. AI Roadmap.canvas",
     "Data Engineer Roadmap.canvas",
